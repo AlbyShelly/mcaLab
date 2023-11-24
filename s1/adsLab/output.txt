@@ -1,0 +1,178 @@
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option1 
+
+Enter a number: 1
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option1
+
+Enter a number: 1
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option2
+
+Enter a number: 2
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option3
+
+Enter a number: 2
+
+FOUND!
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option5
+
+........................
+1->2->
+........................
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option4
+
+........................
+1->2->
+........................
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option6
+
+........................
+2->1->
+........................
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option2
+
+Enter a number: 10
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option2
+
+Enter a number: 56
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option2
+
+Enter a number: 90 
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option2
+
+Enter a number: 78
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option3
+
+Enter a number: 23
+
+Not FOUND!
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option4
+
+........................
+1->2->10->56->78->90->
+........................
+
+1)Create Root Node 
+2)Insert Node
+3)Search
+4)inorderTraveral 
+5)preorederTraversal 
+6)postorderTraversal
+7)Delete
+8)Quit
+Choose an option
+
