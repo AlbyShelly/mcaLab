@@ -36,6 +36,12 @@ class bank_acc :
         print("Account holder: {0} ".format(self.account_holder_name)) 
         print("Balance: {0} ".format(self.balance)) 
 
+    def __lt__(self, obj):
+
+        if self.balance < obj.balance:
+
+            return "{0} does not have a lesser balance than {1}".format(self.account_holder_name,obj.account_holder_name)
+
 
 acc1=bank_acc("1234","alby","savings",0)
 
@@ -50,3 +56,12 @@ acc1.deposit(1000)
 acc1.display_account_info()
 
 acc1.withdraw(500)
+
+acc2 = bank_acc("1223","josin","current",0)
+
+print(acc1 < acc2)
+
+print("acc1 balance: ",acc1.balance)
+print("acc2 balance: ",acc2.balance)
+
+print(acc2 < acc1)
