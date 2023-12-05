@@ -6,13 +6,7 @@ def write_to_csv(filename,data):
         csv_writer = csv.writer(csvfile)
         csv_writer.writerows(data)
 
-    print("Data has been written to ",filename)
-
-def read_csv_and_print(filename):
-
-    with open(filename, 'r') as csvfile:
-        csv_reader = csv.reader(csvfile)
-
+    print("Data has been written to ",filenam
         for row in csv_reader:
 
             print(','.join(row))
