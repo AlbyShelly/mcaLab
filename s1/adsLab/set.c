@@ -146,18 +146,18 @@ void main(){
 		}
 	}
 
-	printf("\nUniversal set: ");
+	printf("\nUniversal set : ");
 	display(u);
-	printf("\n Set 1 bit string: ");
+	printf("\n Set 1 bit string : ");
 	display(u);
 	
-	printf("\n Set 2 bit string: ");
+	printf("\n Set 2 bit string : ");
 	display(b);
 
-	printf("\n Set 1: ");
+	printf("\n Set 1 : ");
 	bitdis(a);
 	
-	printf("\n Set 2: ");
+	printf("\n Set 2 : ");
 	bitdis(b);
 
 	setunion();
