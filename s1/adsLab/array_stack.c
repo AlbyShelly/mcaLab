@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int arr[10];
 int top =-1;
@@ -7,6 +8,7 @@ int size;
 void print(void);
 void pop(void);
 void push(void);
+void search(void);
 
 int main(){
 
@@ -16,7 +18,7 @@ int main(){
 	while(1){
 		
 		int choice;
-		printf("1.PUSH\n2.POP\n3.PRINT\n");
+		printf("1.PUSH\n2.POP\n3.PRINT\n4.SEARCH\n5.EXIT\n");
 		printf("Enter your choice: ");
 		scanf("%i",&choice);
 		
@@ -31,8 +33,11 @@ int main(){
 			case 3:
 				print();
 				break;
-			default:
-				printf("Enter a valid choice\n");
+			case 4:
+				search();
+				break;
+			case 5:
+				exit(0);
 				break;
 		}
 
@@ -70,4 +75,24 @@ void print(void){
 		printf("Stack empty\n");
 	}
 	printf("top: %i\n",top);
+}
+
+void search(void){
+
+	if(top == -1){
+		printf("The stack is empty\n");
+		return;
+
+	}
+	int element;
+	printf("Enter your element: ");
+	scanf("%i",&element);
+	for(int i =0; i <= top; i++){
+		if(arr[i] == element){
+			printf("Element found at index %i \n",i);
+			return;
+		}
+	}
+
+	printf("Element not found\n");
 }
