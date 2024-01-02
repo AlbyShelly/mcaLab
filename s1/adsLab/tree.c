@@ -40,17 +40,6 @@ struct node* insert(struct node* root,int value){
 
 }
 
-//Inorder traversal
-
-void inorderTraversal(struct node* root){
-
-	if(root==NULL) return;
-	inorderTraversal(root->left);
-	printf("%d->",root->data);
-	inorderTraversal(root->right);
-
-}
-
 //Preorder traversal
 
 void preorderTraversal(struct node *root){
@@ -60,16 +49,6 @@ void preorderTraversal(struct node *root){
 	preorderTraversal(root->left);
 	preorderTraversal(root->right);
 
-}
-
-//Postorder traversal
-
-void postorderTraversal(struct node *root){
-
-	if(root==NULL) return;
-	postorderTraversal(root->left);
-	postorderTraversal(root->right);
-	printf("%d->",root->data);
 }
 
 struct node *search(struct node *root, int key){
@@ -154,9 +133,9 @@ void main(){
 	do{
 
 		printf("\n1)Create Root Node \n2)Insert Node\n3)Search\n");
-		printf("4)inorderTraveral \n5)preorederTraversal \n6)postorderTraversal\n7)Delete\n8)Quit\n");
+		printf("4)preorderTraveral \n5)Delete\n6)Quit\n");
 
- 		printf("Choose an option");
+ 		printf("Choose an option:");
 		scanf("%d",&opt);
 		switch(opt){
 
@@ -177,31 +156,19 @@ void main(){
 				scanf("%d",&searchv);
 				search(root,searchv);
 				break;
-
 			case 4:
-	
-				printf("\n........................\n");
-				inorderTraversal(root);
-				printf("\n........................\n");
-				break;
-
-			case 5:
 				printf("\n........................\n");
 				preorderTraversal(root);
 				printf("\n........................\n");
 				break;
-			
-			case 6:
-
-				printf("\n........................\n");
-				postorderTraversal(root);
-				printf("\n........................\n");
-				break;
-			case 7:
+			case 5:
 				
 				printf("\nEnter a number to be deleted:");
 				scanf("%d",&key);
 				deleteNode(root,key);
+				break;
+			case 6:
+				exit(0);
 				break;
 			default:
 				printf("Invalid option!");
