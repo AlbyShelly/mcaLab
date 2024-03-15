@@ -1,0 +1,46 @@
+<html>
+
+	<head><title>Image Show</title></head>
+
+	<style>
+
+		#image{
+
+			display:block;
+			height:225px;
+			width:225px;
+
+		}
+	</style>
+
+	<body>
+		<h1>Hover Over the Image</h1>
+		<div id="image">
+			<img id="cimage" src="/home/lab1/Desktop/alby/web_programming/cat.jpeg">
+
+		</div>
+
+	</body>
+
+	
+	<script>
+
+		var element = document.getElementById("image");
+
+		console.log(element)
+
+		element.addEventListener("mouseover",function(){
+		
+
+		document.getElementById("cimage").style.display="none"
+		})
+
+		element.addEventListener("mouseout",function(){
+
+		document.getElementById("cimage").style.display="block"
+		})	
+
+	</script>
+
+</html>
+				

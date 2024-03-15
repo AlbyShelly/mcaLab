@@ -1,0 +1,33 @@
+public class product{
+	int pcode;
+	String pname;
+	int price;
+
+product(int pcode, String pname, int price){
+
+	this.pcode = pcode;
+	this.pname = pname;
+	this.price = price;
+}
+
+void lowest(product p1, prodct p2, product p3){
+	
+	if(p1.price > p2.price && p1.price>p3.price){
+		System.out.println("Product one");
+	}else if(p2.price > p3.price && p2.price > p1.price){
+		System.out.println("Product two");
+	}else{
+		System.out.println("Product three");
+	}
+
+}
+
+public static void main(String args[]){
+
+	product p1 = new product(1,"foo",200);
+	product p2 = new product(2,"bar",300);
+	product p3 = new product(3,"baz",400);
+}
+
+}
+	

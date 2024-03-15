@@ -1,0 +1,45 @@
+<html>
+
+	<head><title>Exam</title>
+	
+	<script>
+		document.getElementById("btn").addEventListener("click",function(){
+		var ele = document.getElementByName("answer").value;
+		console.log(ele);
+
+		})
+	</script>
+	</head>
+
+	<body>
+
+		<h1>Online Exam</h1>
+
+		<h2>What is the capital of France</h2>
+
+		<form id="myForm">
+
+		<input type="radio" value="paris" name="answer">
+		<label for="answer">Paris</label><br>
+
+		<input type="radio" value="london" name="answer">
+		<label for= "answer">London</label><br>
+
+		<input type="radio" value="berlin" name="answer">
+		<label for="answer">Berlin</label><br>
+
+		<input type = "radio" value="mandrid"  name="answer">
+		<label for="answer">Mandrid</label>
+
+		<br>
+		
+
+		</form>
+
+		<button id="btn" >Submit</button>
+	</body>
+
+
+
+</html>
+

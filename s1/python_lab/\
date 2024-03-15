@@ -1,0 +1,14 @@
+#Function to calculate the factorial
+
+def fact(i):
+
+	f = 1
+
+	for n in range (1,i+1):
+		print(n)
+	
+	return 
+
+num = int(input("Enter your number"))
+
+print(fact(num))
