@@ -6,6 +6,7 @@ class Emp{
 	String eName;
 
 	void getEmployee(){
+
 		System.out.println("Enter the employ Number: ");
 		Scanner sc = new Scanner(System.in);
 		eNo = sc.nextInt();
@@ -15,7 +16,6 @@ class Emp{
 
 		System.out.println("Enter the employ name: ");
 		eName = sc.next();
-
 	}
 
 	void display(){
@@ -23,9 +23,7 @@ class Emp{
 		System.out.println("Name: " + eName);
 		System.out.println("Salary: " + eSalary);
 		System.out.println("Number: " + eNo);
-
 	}
-
 }
 
 public class Prob2{
