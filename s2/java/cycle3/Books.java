@@ -62,6 +62,7 @@ public class Books{
 		
 		int n = 2;
 		Scanner sc = new Scanner("System.in");
+		sc.nextLine();
 		Literature lit_arr[] = new Literature[n];
 		Fiction fic_arr[] = new Fiction[n];
 		
